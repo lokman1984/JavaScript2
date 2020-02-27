@@ -1,0 +1,56 @@
+body {
+    background-color: #23555d;
+    padding-top: 1rem;
+  }
+  h1,
+  h2,
+  p {
+    text-align: center;
+    color: #fff;
+  }
+  h1 {
+    font-size: 5rem;
+    margin-top: 1.5rem;
+  }
+  h2,
+  p {
+    font-size: 2.5rem;
+    margin-top: 2rem;
+  }
+  #session {
+    width: 60vw;
+    margin: 1rem auto;
+    border: 10px solid #14363a;
+    border-radius: 70px;
+  }
+  #session p {
+    font-size: 4rem;
+    padding: 10px auto;
+    margin-bottom: 3rem;
+  }
+  #sessionLength {
+    display: inline-block;
+    width: 60px;
+  }
+  #play,
+  #pause,
+  #up,
+  #down,
+  #replay {
+    cursor: pointer;
+  }
+  
+  @media (min-width: 768px) {
+    #session {
+      width: 40vw;
+    }
+    #session p {
+      font-size: 5rem;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    #session {
+      width: 30vw;
+    }
+  }
